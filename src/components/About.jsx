@@ -3,29 +3,31 @@ export default function About() {
     <section className="section" id="about">
       <div className="section-title">
         <h2>
-          about <span>us</span>
+          about <span>Nazareth</span>
         </h2>
       </div>
 
       <div className="section-center about-center">
         <div className="about-img">
           <img
-            src="./images/about.jpeg"
+            src="./images/4.jpeg"
             className="about-photo"
             alt="awesome beach"
           />
         </div>
         <article className="about-info">
-          <h3>explore the difference</h3>
+          <h3>explore the Magical City</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+            Nazareth, located in northern Israel, is renowned as the historic
+            hometown of Jesus and a major pilgrimage site with significant
+            religious landmarks, including the Basilica of the Annunciation. The
+            city blends ancient charm with vibrant markets, narrow alleyways,
+            and cultural sites that reflect its rich history and diverse
+            communities.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+            As the largest Arab city in Israel, Nazareth offers a unique
+            cultural and culinary experience, attracting visitors worldwide.
           </p>
           <a href="#" className="btn">
             read more
