@@ -1,11 +1,9 @@
+import Title from "./Title";
+
 export default function About() {
   return (
     <section className="section" id="about">
-      <div className="section-title">
-        <h2>
-          about <span>Nazareth</span>
-        </h2>
-      </div>
+      <Title title="about" sub="Nazareth"></Title>
 
       <div className="section-center about-center">
         <div className="about-img">
