@@ -1,48 +1,26 @@
+import { highlights } from "../data";
 import Title from "./Title";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Services() {
   return (
     <section className="section services" id="services">
-      <Title title="our" sub="servicrs" />
+      <Title title="Highlights of" sub="Nazareth" />
       <div className="section-center services-center">
-        <article className="service">
-          <span className="service-icon">
-            <i className="fas fa-wallet fa-fw"></i>
-          </span>
-          <div className="service-info">
-            <h4 className="service-title">saving money</h4>
-            <p className="service-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores, officia.
-            </p>
-          </div>
-        </article>
-
-        <article className="service">
-          <span className="service-icon">
-            <i className="fas fa-tree fa-fw"></i>
-          </span>
-          <div className="service-info">
-            <h4 className="service-title">endless hiking</h4>
-            <p className="service-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores, officia.
-            </p>
-          </div>
-        </article>
-
-        <article className="service">
-          <span className="service-icon">
-            <i className="fas fa-socks fa-fw"></i>
-          </span>
-          <div className="service-info">
-            <h4 className="service-title">amazing comfort</h4>
-            <p className="service-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores, officia.
-            </p>
-          </div>
-        </article>
+        {highlights.map((highlight) => {
+          const { id, icon, title, text } = highlight;
+          return (
+            <article key={id} className="service">
+              <span className="service-icon">
+                <i className={icon}></i>
+              </span>
+              <div className="service-info">
+                <h4 className="service-title">{title}</h4>
+                <p className="service-text">{text}</p>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
