@@ -43,3 +43,16 @@ export const highlights = [
     text: "Key landmarks include the Basilica of the Annunciation, believed to be where the angel Gabriel visited Mary, and other sites like St. Joseph’s Church and Mary’s Well, making it a focal point for Christian pilgrims.",
   },
 ];
+
+export const places = [
+  {
+    id: 1,
+    img: "../../public/images/1.jpg",
+    date: "1 hour",
+    title: "church annucitation",
+    info: "jkhfkjhkhkjhk",
+    location: "old city",
+    duration: "2 hours",
+    cost: "free",
+  },
+];
