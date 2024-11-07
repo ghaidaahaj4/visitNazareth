@@ -4,7 +4,7 @@ export default function Tours() {
     <section className="section" id="tours">
       <div className="section-title">
         <h2>
-          featured <span>tours</span>
+          featured <span>Places</span>
         </h2>
       </div>
 
